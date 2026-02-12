@@ -82,3 +82,60 @@ nav {
     width: 100%;
 }
 
+.box{
+    background:lightblue;
+    padding:20px;
+    margin:10px 0;
+    border:3px solid blue;
+}
+
+.inline{
+    background:yellow;
+}
+
+.block{
+    display:block;
+    background:orange;
+    margin-top:10px;
+}
+.parent{
+    position:relative;
+    height:120px;
+    background:lightgray;
+}
+
+.child{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:red;
+    color:white;
+}
+.flex-container {
+    background-color: #ffead2;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.flex-item {
+    background-color: #ff8c61;
+    color: #333;
+    flex: 1; 
+    padding: 15px;
+    text-align: left;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #90ee90;
+    padding: 20px;
+    border: 1px solid #7ecc7e;
+}
+
+
