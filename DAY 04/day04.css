@@ -1,15 +1,22 @@
 h1{
-    color:brown;
 }
 .box1{
-    height: 500px;
-    width:500px ;
-    background-color: yellow;
-    margin-bottom: 100px;
+background-color: yellow;
+margin-top: 10px;
+position: relative;
 }
 #hello{
-    background-color: blue;
-    padding:10px;
-    padding-top: 10px;
-    color: aliceblue;
+background-color: rgb(12, 49, 255);
+color: rgb(19, 16, 237);
+height: 200px;
+width: 200px;
+margin-top: 10px;
+position:absolute;
+}
+#hello:hover{
+border: 10px inset black;
+border-radius: 100%;
+background-color: rgb(249, 0, 41);
+margin-top: 10px;
+padding-right: 100px;
 }
