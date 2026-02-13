@@ -1,0 +1,15 @@
+h1{
+    color:brown;
+}
+.box1{
+    height: 500px;
+    width:500px ;
+    background-color: yellow;
+    margin-bottom: 100px;
+}
+#hello{
+    background-color: blue;
+    padding:10px;
+    padding-top: 10px;
+    color: aliceblue;
+}
